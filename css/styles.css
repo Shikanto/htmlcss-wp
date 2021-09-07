@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+#logo-neori{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid darkgray;;
+    padding-right: 25px;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: -10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul a{
+    color: darkgray;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+   /*  border: 1px solid; */
+}
+
+.hero-section{
+    background-color: yellow;
+    height: 350px;
+    margin: 20px auto;
+}
+
+.main-container{ 
+    background-color: blue;
+    /* height: 500px; per gestire meglio il contenuto non dobbiamo dare un'altezza*/ 
+    padding-bottom: 20px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.main-container-header{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.float-left{
+    float: left;
+}
+
+.col{
+    width: 20%;
+    height: 300px;
+}
+
+.col-center{
+    width: calc(100% - 40% - 20px);
+    margin:0 10px;
+    
+}
+
+footer .container{
+    background-color: purple;
+    height: 120px;
+    margin-top: 20px;
+}

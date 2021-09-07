@@ -13,7 +13,7 @@
 
 #logo-neori{
     width: 10%;
-    border-right: 1px solid darkgray;;
+    border-right: 1px solid rgb(80, 79, 79);;
     padding-right: 25px;
     margin-bottom: 20px;
 }
@@ -28,9 +28,10 @@ nav ul li{
 }
 
 nav ul a{
-    color: darkgray;
+    color: rgb(80, 79, 79);
     text-decoration: none;
     padding: 8px 10px;
+    font-size: 20px;
 }
 
 .container {
@@ -81,10 +82,17 @@ nav ul a{
     font-weight: lighter;
 }
 
-.main-container{ 
-    background-color: blue;
-    /* height: 500px; per gestire meglio il contenuto non dobbiamo dare un'altezza*/ 
+.main-container{  
     padding-bottom: 20px;
+}
+
+.main-container-header h1{
+    font-size: 50px;
+}
+
+.main-container-header p{
+    font-size: 20px;
+    color: grey;
 }
 
 .lightblue {
@@ -92,7 +100,6 @@ nav ul a{
 }
 
 .main-container-header{
-    height: 80px;
     width: 100%;
     margin-bottom: 15px;
 }

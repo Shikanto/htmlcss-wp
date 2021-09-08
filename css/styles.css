@@ -96,13 +96,14 @@ nav ul a{
     float: left;
 }
 
-.col{
-    width: 20%;    
+.col{    
     height: 300px;
     position: relative;
-   
 }
 
+.col, .col-text{
+    width: 20%;
+}
 .col-center{
     width: calc(100% - 40% - 40px);
     margin:0 20px;
@@ -121,7 +122,7 @@ div.clearfix{
     margin-bottom: 30px;
 }
 
-.col p{
+.col-text p{
     color: gray;
     font-family: 'Montserrat', sans-serif;
 }
